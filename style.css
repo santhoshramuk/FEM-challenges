@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+.attribution{
+  font-size: 11px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.attribution a{
+  color: hsl(228, 45%, 44%);
+  }
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  text-decoration: none;
+  color: hsl(245, 75%, 52%);
+}
+
+body{
+  background-color: #dee7ff;
+  margin-top: 75px;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-position-x:center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  flex-direction: column;
+}
+
+.container{
+  background-color: white;
+  width: 500px;
+  border-radius: 25px;
+}
+
+.HeroImage{
+  width: 500px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+
+}
+
+.title{
+  color: hsl(223, 47%, 23%);
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+}
+
+.description{
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  color: hsl(224, 23%, 55%);
+  line-height: 25px;
+
+}
+
+.PaymentMethod{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.PaymentContainer{
+  background-color: hsl(225, 100%, 98%);
+  width: 75%;
+  border-radius: 25px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#MusicIcon{
+  height: 50%;
+  margin: 20px;
+}
+
+.PlanPriceContainer{
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
+
+.PlanTitle{
+  font-family:'Red Hat Display', sans-serif; ;
+  font-weight: bold;
+  color: hsl(223, 47%, 23%);
+}
+
+.price{
+  font-family: 'Red Hat Display', sans-serif;
+  color: hsl(224, 23%, 55%);
+}
+
+#ChangePlan{
+  margin-left: 70px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bold;
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
+}
+
+#ChangePlan:visited{
+  color:hsl(224, 23%, 55%);
+
+}
+
+.ButtonProceedPayment{
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  height: 50px;
+  width: 400px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-family: 'Red Hat Display', sans-serif;
+  margin-bottom: 20px;
+}
+
+.ButtonProceedPayment:hover{
+  transition: 20ms;
+  cursor: pointer;
+  background-color:hsl(223, 47%, 23%);
+}
+
+
+.CancelOrderButton{
+  text-align: center;
+  margin-bottom: 50px;
+  color: hsl(223, 47%, 23%);
+  font-weight: bold;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+
